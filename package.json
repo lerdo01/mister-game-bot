@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "colors": "^1.4.0",
+    "discord.js": "^14.15.2",
+    "dotenv": "^16.4.5",
+    "fs": "^0.0.1-security",
+    "ts-lib": "^0.0.5"
+  },
+  "name": "mister-game-bot",
+  "description": "A dDiscord bot utilizing Typescript",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsc src/index.ts",
+    "start": "tsc src/index.ts && node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
